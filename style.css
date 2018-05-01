@@ -1,3 +1,17 @@
+#sidebar {
+  position: fixed;
+  width: 250px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: hsl(160, 84%, 42%);
+  color: white;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 body {
   background-color: #EAEAEA;
   font-family: 'Roboto', sans-serif;
@@ -44,6 +58,10 @@ a:hover {
   color: #11C489;
 }
 
+td {
+  padding: 10px;
+}
+
 .btn-primary {
   background-color: #141423;
   color: white;
@@ -88,7 +106,7 @@ a:hover {
 .card {
   background-color: white;
   padding: 50px;
-  width: 40%;
+  width: 60%;
   min-width: 400px;
   margin: 50px auto;
   box-shadow: 1px 1px 1px rgba(50,50,50,0.2);
@@ -108,6 +126,15 @@ a:hover {
 .img-square {
   width: 150px;
   height: 100px;
+  padding-right: 10px;
+}
+
+.list-vertical {
+  list-style: none;
+  font-size: 30px;
+  line-height: 1.75;
+  color: white;
+  margin-top: 50px;
 }
 
 .list-inline {
@@ -120,6 +147,11 @@ a:hover {
   padding: 20px;
 }
 
-td {
-  padding: 10px;
+a.sidebar-menu {
+  color: white;
+}
+
+a.sidebar-menu:hover {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(50,50,50,0.2);
 }
